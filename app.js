@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import { StreamClient } from "@stream-io/node-sdk";
 import multer from "multer";
 import { v2 as cloudinary } from "cloudinary";
